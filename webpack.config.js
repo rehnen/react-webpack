@@ -9,9 +9,11 @@ module.exports = {
     output: {
         path: path.join(__dirname, '/target'),
         filename: 'index_bundle.js',
+        publicPath: '/'
     },
     devServer: {
         stats: 'errors-only',
+        historyApiFallback: true,
     },
     module: {
         rules: [
