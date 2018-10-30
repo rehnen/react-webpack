@@ -7,7 +7,7 @@ const Home = () => (
 
 const About = () => (
     <div>
-        <h2>About</h2>
+        <h1>About</h1>
         <p>Nobody ever has anything interesting to say here</p>
     </div>
 );
