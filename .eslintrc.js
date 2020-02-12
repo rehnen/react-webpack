@@ -4,10 +4,10 @@ module.exports = {
         "jest": true,
     },
     "rules": {
-        indent: ['error', 4],
-        "react/jsx-indent": ['error', 4]
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     },
     globals: {
         'document': false,
+        'window': false
     }
 };

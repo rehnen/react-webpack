@@ -19,14 +19,10 @@
   },
   "lint-staged": {
     "*.js": [
-      "eslint --fix",
-      "git add",
-      "jest --bail --findRelatedTests"
+      "eslint --fix"
     ],
     "*.jsx": [
-      "eslint --fix",
-      "git add",
-      "jest --bail --findRelatedTests"
+      "eslint --fix"
     ]
   },
   "keywords": [
@@ -37,9 +33,11 @@
   "author": "Marcus Rehn",
   "license": "MIT",
   "dependencies": {
-    "react": "^16.5.1",
-    "react-dom": "^16.5.1",
-    "react-router-dom": "^4.4.0-beta.4"
+    "d3": "^5.9.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^4.4.0-beta.8",
+    "url-loader": "^2.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.0.1",
@@ -60,8 +58,8 @@
     "husky": "^1.1.2",
     "jest": "^23.6.0",
     "lint-staged": "^8.0.3",
-    "webpack": "^4.19.0",
+    "webpack": "^4.41.4",
     "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.1.8"
+    "webpack-dev-server": "^3.7.1"
   }
 }
